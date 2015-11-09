@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KYFriendController">
+            <connections>
+                <outlet property="view" destination="eAn-an-4af" id="wR6-K0-r64"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="eAn-an-4af">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="560"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="快快登陆吧" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Df-Ox-3GV">
+                    <rect key="frame" x="10" y="149" width="330" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Dxt-q9-AfY">
+                    <rect key="frame" x="125" y="230" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="121-Ey-CvU"/>
+                        <constraint firstAttribute="width" constant="100" id="y5R-Uq-nM9"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QRT-s2-KnF">
+                    <rect key="frame" x="20" y="410" width="145" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="登陆" backgroundImage="login_register_button">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="loginBtnClick:" destination="-1" eventType="touchUpInside" id="YTa-9L-vf1"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9k7-X7-AK2">
+                    <rect key="frame" x="185" y="410" width="145" height="40"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="注册">
+                        <color key="titleColor" red="1" green="0.12988484550000001" blue="0.1670814125" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="registerBtnClick:" destination="-1" eventType="touchUpInside" id="9Nl-c5-jux"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="Dxt-q9-AfY" secondAttribute="centerX" id="A9S-AW-hXc"/>
+                <constraint firstItem="QRT-s2-KnF" firstAttribute="top" secondItem="Dxt-q9-AfY" secondAttribute="bottom" constant="80" id="BTe-Bm-DeA"/>
+                <constraint firstItem="4Df-Ox-3GV" firstAttribute="leading" secondItem="eAn-an-4af" secondAttribute="leading" constant="10" id="Grx-HK-vVe"/>
+                <constraint firstAttribute="centerY" secondItem="Dxt-q9-AfY" secondAttribute="centerY" id="Jf1-p1-cfI"/>
+                <constraint firstItem="QRT-s2-KnF" firstAttribute="width" secondItem="9k7-X7-AK2" secondAttribute="width" id="QAK-OJ-xmT"/>
+                <constraint firstItem="9k7-X7-AK2" firstAttribute="leading" secondItem="QRT-s2-KnF" secondAttribute="trailing" constant="20" id="S7y-ja-Zpg"/>
+                <constraint firstItem="Dxt-q9-AfY" firstAttribute="top" secondItem="4Df-Ox-3GV" secondAttribute="bottom" constant="60" id="d4H-JU-stU"/>
+                <constraint firstAttribute="trailing" secondItem="4Df-Ox-3GV" secondAttribute="trailing" constant="10" id="hUY-v8-tJK"/>
+                <constraint firstItem="QRT-s2-KnF" firstAttribute="leading" secondItem="eAn-an-4af" secondAttribute="leading" constant="20" id="i0o-0Q-yej"/>
+                <constraint firstItem="QRT-s2-KnF" firstAttribute="height" secondItem="9k7-X7-AK2" secondAttribute="height" id="rpl-py-9Vy"/>
+                <constraint firstAttribute="trailing" secondItem="9k7-X7-AK2" secondAttribute="trailing" constant="20" id="tgP-ED-elg"/>
+                <constraint firstItem="9k7-X7-AK2" firstAttribute="top" secondItem="Dxt-q9-AfY" secondAttribute="bottom" constant="80" id="zC6-xR-Vqc"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="262" y="391"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="login_register_button" width="87" height="40"/>
+    </resources>
+</document>

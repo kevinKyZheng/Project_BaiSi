@@ -1,0 +1,1074 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		090554891BAAE8CF00549588 /* KYSeeBigPictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090554871BAAE8CF00549588 /* KYSeeBigPictureController.m */; };
+		0905548A1BAAE8CF00549588 /* KYSeeBigPictureController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 090554881BAAE8CF00549588 /* KYSeeBigPictureController.xib */; };
+		0905548D1BABFB1600549588 /* KYTopicVedioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0905548C1BABFB1600549588 /* KYTopicVedioView.m */; };
+		0905548F1BABFB2200549588 /* KYTopicVedioView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0905548E1BABFB2200549588 /* KYTopicVedioView.xib */; };
+		090554921BABFB3700549588 /* KYTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 090554911BABFB3700549588 /* KYTopicVoiceView.m */; };
+		090554941BABFB7700549588 /* KYTopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 090554931BABFB7700549588 /* KYTopicVoiceView.xib */; };
+		090554971BAC0A0E00549588 /* KYUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 090554961BAC0A0E00549588 /* KYUser.m */; };
+		0905549A1BAC0A1900549588 /* KYComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 090554991BAC0A1900549588 /* KYComment.m */; };
+		0905549D1BAC0E1600549588 /* KYCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0905549C1BAC0E1600549588 /* KYCommentViewController.m */; };
+		0905549F1BAC0F7900549588 /* KYCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0905549E1BAC0F7900549588 /* KYCommentViewController.xib */; };
+		090554A21BAE85BC00549588 /* KYCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090554A11BAE85BC00549588 /* KYCommonViewController.m */; };
+		090554A91BAED08D00549588 /* KYCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 090554A71BAED08D00549588 /* KYCommentCell.m */; };
+		090554AA1BAED08D00549588 /* KYCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 090554A81BAED08D00549588 /* KYCommentCell.xib */; };
+		090E97D81BB29206001D2A9F /* KYLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E97D61BB29206001D2A9F /* KYLoginRegisterViewController.m */; };
+		090E97D91BB29206001D2A9F /* KYLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 090E97D71BB29206001D2A9F /* KYLoginRegisterViewController.xib */; };
+		091186581B9DA8350086DEE7 /* KYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 091186521B9DA8350086DEE7 /* KYTabBarController.m */; };
+		091186591B9DA8350086DEE7 /* KYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 091186551B9DA8350086DEE7 /* KYTabBar.m */; };
+		091186691B9DA8AC0086DEE7 /* UIBarButtonItem+KYExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 091186681B9DA8AC0086DEE7 /* UIBarButtonItem+KYExt.m */; };
+		0911866E1B9DAA230086DEE7 /* NSArray+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 0911866B1B9DAA230086DEE7 /* NSArray+Ext.m */; };
+		0911866F1B9DAA230086DEE7 /* UIView+ViewFrameExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 0911866D1B9DAA230086DEE7 /* UIView+ViewFrameExt.m */; };
+		0930B00E1BC7D9FC00A16509 /* KYQuickLoginBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 0930B00D1BC7D9FC00A16509 /* KYQuickLoginBtn.m */; };
+		0945F6051B9ED86B004FDCCD /* NSString+KYFileCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0945F6041B9ED86B004FDCCD /* NSString+KYFileCache.m */; };
+		0945F6081B9EDCBF004FDCCD /* KYTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0945F6071B9EDCBF004FDCCD /* KYTool.m */; };
+		095EBCF21B9FBED0006A3C1B /* KYPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095EBCF01B9FBED0006A3C1B /* KYPublishViewController.m */; };
+		095EBCF31B9FBED0006A3C1B /* KYPublishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 095EBCF11B9FBED0006A3C1B /* KYPublishViewController.xib */; };
+		095EBCF61B9FC44F006A3C1B /* KYPublishButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 095EBCF51B9FC44F006A3C1B /* KYPublishButton.m */; };
+		095F641B1B9DB28A00D0E09E /* KYMeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 095F641A1B9DB28A00D0E09E /* KYMeCell.m */; };
+		095F64211B9DB46C00D0E09E /* KYConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 095F64201B9DB46C00D0E09E /* KYConst.m */; };
+		095F64241B9DBA6900D0E09E /* KYFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 095F64231B9DBA6900D0E09E /* KYFooterView.m */; };
+		095F64271B9DBB3900D0E09E /* KYFooterBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 095F64261B9DBB3900D0E09E /* KYFooterBtn.m */; };
+		095F642A1B9DBD7C00D0E09E /* KYSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 095F64291B9DBD7C00D0E09E /* KYSquare.m */; };
+		095F643A1B9E7B7B00D0E09E /* KYWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095F64381B9E7B7B00D0E09E /* KYWebViewController.m */; };
+		095F643B1B9E7B7B00D0E09E /* KYWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 095F64391B9E7B7B00D0E09E /* KYWebViewController.xib */; };
+		095F643E1B9E810900D0E09E /* KYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095F643D1B9E810900D0E09E /* KYNavigationController.m */; };
+		095F64411B9E8C0400D0E09E /* KYSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095F64401B9E8C0400D0E09E /* KYSettingController.m */; };
+		095F64441B9E8D5100D0E09E /* KYClearCacheCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 095F64431B9E8D5100D0E09E /* KYClearCacheCell.m */; };
+		098275FA1BA6E8E6004CEB6D /* UIImageView+KYIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 098275F91BA6E8E6004CEB6D /* UIImageView+KYIconView.m */; };
+		098275FD1BA6E9EC004CEB6D /* UIImage+KYCircleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 098275FC1BA6E9EC004CEB6D /* UIImage+KYCircleImage.m */; };
+		098276001BA6ECF2004CEB6D /* KYTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 098275FF1BA6ECF2004CEB6D /* KYTopic.m */; };
+		098276031BA7AB1E004CEB6D /* NSDate+KYComparaion.m in Sources */ = {isa = PBXBuildFile; fileRef = 098276021BA7AB1E004CEB6D /* NSDate+KYComparaion.m */; };
+		098276061BA80FC0004CEB6D /* UITextField+KYPlaceHolderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 098276051BA80FC0004CEB6D /* UITextField+KYPlaceHolderColor.m */; };
+		098276091BA819C0004CEB6D /* KYTagButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 098276081BA819C0004CEB6D /* KYTagButton.m */; };
+		0982760C1BA9416D004CEB6D /* KYTopicPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0982760B1BA9416D004CEB6D /* KYTopicPictureView.m */; };
+		0982760E1BA94184004CEB6D /* KYTopicPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0982760D1BA94184004CEB6D /* KYTopicPictureView.xib */; };
+		0992D8F21BA16D7900B4F3A4 /* KYPlaceHolderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0992D8F11BA16D7900B4F3A4 /* KYPlaceHolderTextView.m */; };
+		0992D8F41BA17C8E00B4F3A4 /* KYFriendController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0992D8F31BA17C8E00B4F3A4 /* KYFriendController.xib */; };
+		09B0C7691BB0FAB700DA1196 /* KYRecommandFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B0C7681BB0FAB700DA1196 /* KYRecommandFollowViewController.m */; };
+		09B0C76B1BB0FAD300DA1196 /* KYRecommandFollowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09B0C76A1BB0FAD300DA1196 /* KYRecommandFollowViewController.xib */; };
+		09B0C76F1BB0FFA900DA1196 /* KYCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B0C76D1BB0FFA900DA1196 /* KYCategoryCell.m */; };
+		09B0C7701BB0FFA900DA1196 /* KYCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09B0C76E1BB0FFA900DA1196 /* KYCategoryCell.xib */; };
+		09B0C7741BB0FFDD00DA1196 /* KYUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B0C7721BB0FFDD00DA1196 /* KYUserCell.m */; };
+		09B0C7751BB0FFDD00DA1196 /* KYUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09B0C7731BB0FFDD00DA1196 /* KYUserCell.xib */; };
+		09B0C7781BB10B2100DA1196 /* KYFollowCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B0C7771BB10B2100DA1196 /* KYFollowCategory.m */; };
+		09B0C77B1BB13FEA00DA1196 /* KYFollowUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B0C77A1BB13FEA00DA1196 /* KYFollowUser.m */; };
+		09C20CB41BA006740027D6D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C20CB31BA006740027D6D3 /* Images.xcassets */; };
+		09C20CB71BA04F500027D6D3 /* KYPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C20CB61BA04F500027D6D3 /* KYPostViewController.m */; };
+		09D462A71B9539190045E402 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D462A61B9539190045E402 /* _____Tests.m */; };
+		09D463171B95CCB30045E402 /* KYEssenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D462F61B95CCB30045E402 /* KYEssenceController.m */; };
+		09D463181B95CCB40045E402 /* KYFriendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D462FC1B95CCB30045E402 /* KYFriendController.m */; };
+		09D463191B95CCB40045E402 /* KYMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D463021B95CCB30045E402 /* KYMeController.m */; };
+		09D4631C1B95CCB40045E402 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D4630E1B95CCB30045E402 /* AppDelegate.m */; };
+		09D4631F1B95CCB40045E402 /* KYNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D463141B95CCB30045E402 /* KYNewController.m */; };
+		09D463261B95D19B0045E402 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09D463241B95D19B0045E402 /* Info.plist */; };
+		09D463271B95D19B0045E402 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D463251B95D19B0045E402 /* main.m */; };
+		09DCB1631BD3FB6500D709AC /* KYLoginRegTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DCB1621BD3FB6500D709AC /* KYLoginRegTextField.m */; };
+		09E62FBF1BE88DFC0025CBBF /* KYTagTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E62FBE1BE88DFC0025CBBF /* KYTagTextField.m */; };
+		09F2A3A61BA2EFBB006811F8 /* KYPulishWordToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F2A3A51BA2EFBB006811F8 /* KYPulishWordToolBar.m */; };
+		09F2A3A81BA2EFD4006811F8 /* KYPulishWordToolBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09F2A3A71BA2EFD4006811F8 /* KYPulishWordToolBar.xib */; };
+		09F2A3AB1BA2F2E9006811F8 /* KYAddTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F2A3AA1BA2F2E9006811F8 /* KYAddTagViewController.m */; };
+		09F2A3B21BA59194006811F8 /* KYVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F2A3B11BA59194006811F8 /* KYVoiceViewController.m */; };
+		09F2A3B51BA591A6006811F8 /* KYVedioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F2A3B41BA591A6006811F8 /* KYVedioViewController.m */; };
+		09F2A3B81BA591B2006811F8 /* KYWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F2A3B71BA591B2006811F8 /* KYWordViewController.m */; };
+		09F2A3BB1BA591C2006811F8 /* KYPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F2A3BA1BA591C2006811F8 /* KYPictureViewController.m */; };
+		09F2A3BE1BA59219006811F8 /* KYAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F2A3BD1BA59219006811F8 /* KYAllViewController.m */; };
+		09F2A3C11BA59808006811F8 /* KYTitileButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F2A3C01BA59808006811F8 /* KYTitileButton.m */; };
+		09F2A3C51BA6AF89006811F8 /* KYTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F2A3C31BA6AF89006811F8 /* KYTopicCell.m */; };
+		09F2A3C61BA6AF89006811F8 /* KYTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09F2A3C41BA6AF89006811F8 /* KYTopicCell.xib */; };
+		116E0E08C31205BFA7842695 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5D6CE3BF3C1B49AE12306E /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09D462A11B9539190045E402 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09D4627F1B9539190045E402 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09D462861B9539190045E402;
+			remoteInfo = "百思不得姐";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		090554861BAAE8CF00549588 /* KYSeeBigPictureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYSeeBigPictureController.h; sourceTree = "<group>"; };
+		090554871BAAE8CF00549588 /* KYSeeBigPictureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYSeeBigPictureController.m; sourceTree = "<group>"; };
+		090554881BAAE8CF00549588 /* KYSeeBigPictureController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYSeeBigPictureController.xib; sourceTree = "<group>"; };
+		0905548B1BABFB1600549588 /* KYTopicVedioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYTopicVedioView.h; sourceTree = "<group>"; };
+		0905548C1BABFB1600549588 /* KYTopicVedioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYTopicVedioView.m; sourceTree = "<group>"; };
+		0905548E1BABFB2200549588 /* KYTopicVedioView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYTopicVedioView.xib; sourceTree = "<group>"; };
+		090554901BABFB3700549588 /* KYTopicVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYTopicVoiceView.h; sourceTree = "<group>"; };
+		090554911BABFB3700549588 /* KYTopicVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYTopicVoiceView.m; sourceTree = "<group>"; };
+		090554931BABFB7700549588 /* KYTopicVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYTopicVoiceView.xib; sourceTree = "<group>"; };
+		090554951BAC0A0E00549588 /* KYUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYUser.h; sourceTree = "<group>"; };
+		090554961BAC0A0E00549588 /* KYUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYUser.m; sourceTree = "<group>"; };
+		090554981BAC0A1900549588 /* KYComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYComment.h; sourceTree = "<group>"; };
+		090554991BAC0A1900549588 /* KYComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYComment.m; sourceTree = "<group>"; };
+		0905549B1BAC0E1600549588 /* KYCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYCommentViewController.h; sourceTree = "<group>"; };
+		0905549C1BAC0E1600549588 /* KYCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYCommentViewController.m; sourceTree = "<group>"; };
+		0905549E1BAC0F7900549588 /* KYCommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYCommentViewController.xib; sourceTree = "<group>"; };
+		090554A01BAE85BC00549588 /* KYCommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYCommonViewController.h; sourceTree = "<group>"; };
+		090554A11BAE85BC00549588 /* KYCommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYCommonViewController.m; sourceTree = "<group>"; };
+		090554A61BAED08D00549588 /* KYCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYCommentCell.h; sourceTree = "<group>"; };
+		090554A71BAED08D00549588 /* KYCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYCommentCell.m; sourceTree = "<group>"; };
+		090554A81BAED08D00549588 /* KYCommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYCommentCell.xib; sourceTree = "<group>"; };
+		090E97D51BB29206001D2A9F /* KYLoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYLoginRegisterViewController.h; sourceTree = "<group>"; };
+		090E97D61BB29206001D2A9F /* KYLoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYLoginRegisterViewController.m; sourceTree = "<group>"; };
+		090E97D71BB29206001D2A9F /* KYLoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYLoginRegisterViewController.xib; sourceTree = "<group>"; };
+		091186511B9DA8350086DEE7 /* KYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYTabBarController.h; sourceTree = "<group>"; };
+		091186521B9DA8350086DEE7 /* KYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYTabBarController.m; sourceTree = "<group>"; };
+		091186541B9DA8350086DEE7 /* KYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYTabBar.h; sourceTree = "<group>"; };
+		091186551B9DA8350086DEE7 /* KYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYTabBar.m; sourceTree = "<group>"; };
+		091186671B9DA8AC0086DEE7 /* UIBarButtonItem+KYExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+KYExt.h"; sourceTree = "<group>"; };
+		091186681B9DA8AC0086DEE7 /* UIBarButtonItem+KYExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+KYExt.m"; sourceTree = "<group>"; };
+		0911866A1B9DAA230086DEE7 /* NSArray+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Ext.h"; sourceTree = "<group>"; };
+		0911866B1B9DAA230086DEE7 /* NSArray+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Ext.m"; sourceTree = "<group>"; };
+		0911866C1B9DAA230086DEE7 /* UIView+ViewFrameExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewFrameExt.h"; sourceTree = "<group>"; };
+		0911866D1B9DAA230086DEE7 /* UIView+ViewFrameExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewFrameExt.m"; sourceTree = "<group>"; };
+		091186701B9DAA4E0086DEE7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0930B00C1BC7D9FC00A16509 /* KYQuickLoginBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYQuickLoginBtn.h; sourceTree = "<group>"; };
+		0930B00D1BC7D9FC00A16509 /* KYQuickLoginBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYQuickLoginBtn.m; sourceTree = "<group>"; };
+		0945F6031B9ED86B004FDCCD /* NSString+KYFileCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KYFileCache.h"; sourceTree = "<group>"; };
+		0945F6041B9ED86B004FDCCD /* NSString+KYFileCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KYFileCache.m"; sourceTree = "<group>"; };
+		0945F6061B9EDCBF004FDCCD /* KYTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYTool.h; sourceTree = "<group>"; };
+		0945F6071B9EDCBF004FDCCD /* KYTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYTool.m; sourceTree = "<group>"; };
+		095EBCEF1B9FBED0006A3C1B /* KYPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYPublishViewController.h; sourceTree = "<group>"; };
+		095EBCF01B9FBED0006A3C1B /* KYPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYPublishViewController.m; sourceTree = "<group>"; };
+		095EBCF11B9FBED0006A3C1B /* KYPublishViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYPublishViewController.xib; sourceTree = "<group>"; };
+		095EBCF41B9FC44F006A3C1B /* KYPublishButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYPublishButton.h; sourceTree = "<group>"; };
+		095EBCF51B9FC44F006A3C1B /* KYPublishButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYPublishButton.m; sourceTree = "<group>"; };
+		095F64191B9DB28A00D0E09E /* KYMeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYMeCell.h; sourceTree = "<group>"; };
+		095F641A1B9DB28A00D0E09E /* KYMeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYMeCell.m; sourceTree = "<group>"; };
+		095F641F1B9DB46C00D0E09E /* KYConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYConst.h; sourceTree = "<group>"; };
+		095F64201B9DB46C00D0E09E /* KYConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYConst.m; sourceTree = "<group>"; };
+		095F64221B9DBA6900D0E09E /* KYFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYFooterView.h; sourceTree = "<group>"; };
+		095F64231B9DBA6900D0E09E /* KYFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYFooterView.m; sourceTree = "<group>"; };
+		095F64251B9DBB3900D0E09E /* KYFooterBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYFooterBtn.h; sourceTree = "<group>"; };
+		095F64261B9DBB3900D0E09E /* KYFooterBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYFooterBtn.m; sourceTree = "<group>"; };
+		095F64281B9DBD7C00D0E09E /* KYSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYSquare.h; sourceTree = "<group>"; };
+		095F64291B9DBD7C00D0E09E /* KYSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYSquare.m; sourceTree = "<group>"; };
+		095F64371B9E7B7B00D0E09E /* KYWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYWebViewController.h; sourceTree = "<group>"; };
+		095F64381B9E7B7B00D0E09E /* KYWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYWebViewController.m; sourceTree = "<group>"; };
+		095F64391B9E7B7B00D0E09E /* KYWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYWebViewController.xib; sourceTree = "<group>"; };
+		095F643C1B9E810900D0E09E /* KYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYNavigationController.h; sourceTree = "<group>"; };
+		095F643D1B9E810900D0E09E /* KYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYNavigationController.m; sourceTree = "<group>"; };
+		095F643F1B9E8C0400D0E09E /* KYSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYSettingController.h; sourceTree = "<group>"; };
+		095F64401B9E8C0400D0E09E /* KYSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYSettingController.m; sourceTree = "<group>"; };
+		095F64421B9E8D5100D0E09E /* KYClearCacheCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYClearCacheCell.h; sourceTree = "<group>"; };
+		095F64431B9E8D5100D0E09E /* KYClearCacheCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYClearCacheCell.m; sourceTree = "<group>"; };
+		098275F81BA6E8E6004CEB6D /* UIImageView+KYIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+KYIconView.h"; sourceTree = "<group>"; };
+		098275F91BA6E8E6004CEB6D /* UIImageView+KYIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+KYIconView.m"; sourceTree = "<group>"; };
+		098275FB1BA6E9EC004CEB6D /* UIImage+KYCircleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KYCircleImage.h"; sourceTree = "<group>"; };
+		098275FC1BA6E9EC004CEB6D /* UIImage+KYCircleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KYCircleImage.m"; sourceTree = "<group>"; };
+		098275FE1BA6ECF2004CEB6D /* KYTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYTopic.h; sourceTree = "<group>"; };
+		098275FF1BA6ECF2004CEB6D /* KYTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYTopic.m; sourceTree = "<group>"; };
+		098276011BA7AB1E004CEB6D /* NSDate+KYComparaion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+KYComparaion.h"; sourceTree = "<group>"; };
+		098276021BA7AB1E004CEB6D /* NSDate+KYComparaion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+KYComparaion.m"; sourceTree = "<group>"; };
+		098276041BA80FC0004CEB6D /* UITextField+KYPlaceHolderColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+KYPlaceHolderColor.h"; sourceTree = "<group>"; };
+		098276051BA80FC0004CEB6D /* UITextField+KYPlaceHolderColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+KYPlaceHolderColor.m"; sourceTree = "<group>"; };
+		098276071BA819C0004CEB6D /* KYTagButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYTagButton.h; sourceTree = "<group>"; };
+		098276081BA819C0004CEB6D /* KYTagButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYTagButton.m; sourceTree = "<group>"; };
+		0982760A1BA9416D004CEB6D /* KYTopicPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYTopicPictureView.h; sourceTree = "<group>"; };
+		0982760B1BA9416D004CEB6D /* KYTopicPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYTopicPictureView.m; sourceTree = "<group>"; };
+		0982760D1BA94184004CEB6D /* KYTopicPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYTopicPictureView.xib; sourceTree = "<group>"; };
+		0992D8F01BA16D7900B4F3A4 /* KYPlaceHolderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYPlaceHolderTextView.h; sourceTree = "<group>"; };
+		0992D8F11BA16D7900B4F3A4 /* KYPlaceHolderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYPlaceHolderTextView.m; sourceTree = "<group>"; };
+		0992D8F31BA17C8E00B4F3A4 /* KYFriendController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYFriendController.xib; sourceTree = "<group>"; };
+		09B0C7671BB0FAB700DA1196 /* KYRecommandFollowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYRecommandFollowViewController.h; sourceTree = "<group>"; };
+		09B0C7681BB0FAB700DA1196 /* KYRecommandFollowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYRecommandFollowViewController.m; sourceTree = "<group>"; };
+		09B0C76A1BB0FAD300DA1196 /* KYRecommandFollowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYRecommandFollowViewController.xib; sourceTree = "<group>"; };
+		09B0C76C1BB0FFA900DA1196 /* KYCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYCategoryCell.h; sourceTree = "<group>"; };
+		09B0C76D1BB0FFA900DA1196 /* KYCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYCategoryCell.m; sourceTree = "<group>"; };
+		09B0C76E1BB0FFA900DA1196 /* KYCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYCategoryCell.xib; sourceTree = "<group>"; };
+		09B0C7711BB0FFDD00DA1196 /* KYUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYUserCell.h; sourceTree = "<group>"; };
+		09B0C7721BB0FFDD00DA1196 /* KYUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYUserCell.m; sourceTree = "<group>"; };
+		09B0C7731BB0FFDD00DA1196 /* KYUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYUserCell.xib; sourceTree = "<group>"; };
+		09B0C7761BB10B2100DA1196 /* KYFollowCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYFollowCategory.h; sourceTree = "<group>"; };
+		09B0C7771BB10B2100DA1196 /* KYFollowCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYFollowCategory.m; sourceTree = "<group>"; };
+		09B0C7791BB13FEA00DA1196 /* KYFollowUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYFollowUser.h; sourceTree = "<group>"; };
+		09B0C77A1BB13FEA00DA1196 /* KYFollowUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYFollowUser.m; sourceTree = "<group>"; };
+		09C20CB31BA006740027D6D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		09C20CB51BA04F500027D6D3 /* KYPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYPostViewController.h; sourceTree = "<group>"; };
+		09C20CB61BA04F500027D6D3 /* KYPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYPostViewController.m; sourceTree = "<group>"; };
+		09D462871B9539190045E402 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09D462A01B9539190045E402 /* 百思不得姐Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09D462A51B9539190045E402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09D462A61B9539190045E402 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		09D462F51B95CCB30045E402 /* KYEssenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYEssenceController.h; sourceTree = "<group>"; };
+		09D462F61B95CCB30045E402 /* KYEssenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYEssenceController.m; sourceTree = "<group>"; };
+		09D462FB1B95CCB30045E402 /* KYFriendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYFriendController.h; sourceTree = "<group>"; };
+		09D462FC1B95CCB30045E402 /* KYFriendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYFriendController.m; sourceTree = "<group>"; };
+		09D463011B95CCB30045E402 /* KYMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYMeController.h; sourceTree = "<group>"; };
+		09D463021B95CCB30045E402 /* KYMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYMeController.m; sourceTree = "<group>"; };
+		09D4630D1B95CCB30045E402 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09D4630E1B95CCB30045E402 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09D463131B95CCB30045E402 /* KYNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYNewController.h; sourceTree = "<group>"; };
+		09D463141B95CCB30045E402 /* KYNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYNewController.m; sourceTree = "<group>"; };
+		09D463241B95D19B0045E402 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09D463251B95D19B0045E402 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09DCB1611BD3FB6500D709AC /* KYLoginRegTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYLoginRegTextField.h; sourceTree = "<group>"; };
+		09DCB1621BD3FB6500D709AC /* KYLoginRegTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYLoginRegTextField.m; sourceTree = "<group>"; };
+		09E62FBD1BE88DFC0025CBBF /* KYTagTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KYTagTextField.h; path = ../Controller/KYTagTextField.h; sourceTree = "<group>"; };
+		09E62FBE1BE88DFC0025CBBF /* KYTagTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KYTagTextField.m; path = ../Controller/KYTagTextField.m; sourceTree = "<group>"; };
+		09F2A3A41BA2EFBB006811F8 /* KYPulishWordToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYPulishWordToolBar.h; sourceTree = "<group>"; };
+		09F2A3A51BA2EFBB006811F8 /* KYPulishWordToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYPulishWordToolBar.m; sourceTree = "<group>"; };
+		09F2A3A71BA2EFD4006811F8 /* KYPulishWordToolBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYPulishWordToolBar.xib; sourceTree = "<group>"; };
+		09F2A3A91BA2F2E9006811F8 /* KYAddTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYAddTagViewController.h; sourceTree = "<group>"; };
+		09F2A3AA1BA2F2E9006811F8 /* KYAddTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYAddTagViewController.m; sourceTree = "<group>"; };
+		09F2A3B01BA59194006811F8 /* KYVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYVoiceViewController.h; sourceTree = "<group>"; };
+		09F2A3B11BA59194006811F8 /* KYVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYVoiceViewController.m; sourceTree = "<group>"; };
+		09F2A3B31BA591A6006811F8 /* KYVedioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYVedioViewController.h; sourceTree = "<group>"; };
+		09F2A3B41BA591A6006811F8 /* KYVedioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYVedioViewController.m; sourceTree = "<group>"; };
+		09F2A3B61BA591B2006811F8 /* KYWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYWordViewController.h; sourceTree = "<group>"; };
+		09F2A3B71BA591B2006811F8 /* KYWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYWordViewController.m; sourceTree = "<group>"; };
+		09F2A3B91BA591C2006811F8 /* KYPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYPictureViewController.h; sourceTree = "<group>"; };
+		09F2A3BA1BA591C2006811F8 /* KYPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYPictureViewController.m; sourceTree = "<group>"; };
+		09F2A3BC1BA59219006811F8 /* KYAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYAllViewController.h; sourceTree = "<group>"; };
+		09F2A3BD1BA59219006811F8 /* KYAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYAllViewController.m; sourceTree = "<group>"; };
+		09F2A3BF1BA59808006811F8 /* KYTitileButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYTitileButton.h; sourceTree = "<group>"; };
+		09F2A3C01BA59808006811F8 /* KYTitileButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYTitileButton.m; sourceTree = "<group>"; };
+		09F2A3C21BA6AF89006811F8 /* KYTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYTopicCell.h; sourceTree = "<group>"; };
+		09F2A3C31BA6AF89006811F8 /* KYTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYTopicCell.m; sourceTree = "<group>"; };
+		09F2A3C41BA6AF89006811F8 /* KYTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYTopicCell.xib; sourceTree = "<group>"; };
+		2B95D6D66E0BE301BCEECBE0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9D5D6CE3BF3C1B49AE12306E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C653D845B260FAE22A6A538A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09D462841B9539190045E402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116E0E08C31205BFA7842695 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09D4629D1B9539190045E402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0911864A1B9DA8350086DEE7 /* 其他 */ = {
+			isa = PBXGroup;
+			children = (
+				0911864F1B9DA8350086DEE7 /* Main */,
+				091186701B9DAA4E0086DEE7 /* PrefixHeader.pch */,
+			);
+			path = "其他";
+			sourceTree = "<group>";
+		};
+		0911864F1B9DA8350086DEE7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				091186501B9DA8350086DEE7 /* Controller */,
+				091186531B9DA8350086DEE7 /* View */,
+				095F641F1B9DB46C00D0E09E /* KYConst.h */,
+				095F64201B9DB46C00D0E09E /* KYConst.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		091186501B9DA8350086DEE7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				091186511B9DA8350086DEE7 /* KYTabBarController.h */,
+				091186521B9DA8350086DEE7 /* KYTabBarController.m */,
+				095F643C1B9E810900D0E09E /* KYNavigationController.h */,
+				095F643D1B9E810900D0E09E /* KYNavigationController.m */,
+				0945F6061B9EDCBF004FDCCD /* KYTool.h */,
+				0945F6071B9EDCBF004FDCCD /* KYTool.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		091186531B9DA8350086DEE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				091186541B9DA8350086DEE7 /* KYTabBar.h */,
+				091186551B9DA8350086DEE7 /* KYTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		091186661B9DA8AC0086DEE7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0945F6031B9ED86B004FDCCD /* NSString+KYFileCache.h */,
+				0945F6041B9ED86B004FDCCD /* NSString+KYFileCache.m */,
+				0911866A1B9DAA230086DEE7 /* NSArray+Ext.h */,
+				0911866B1B9DAA230086DEE7 /* NSArray+Ext.m */,
+				0911866C1B9DAA230086DEE7 /* UIView+ViewFrameExt.h */,
+				0911866D1B9DAA230086DEE7 /* UIView+ViewFrameExt.m */,
+				091186671B9DA8AC0086DEE7 /* UIBarButtonItem+KYExt.h */,
+				091186681B9DA8AC0086DEE7 /* UIBarButtonItem+KYExt.m */,
+				098275F81BA6E8E6004CEB6D /* UIImageView+KYIconView.h */,
+				098275F91BA6E8E6004CEB6D /* UIImageView+KYIconView.m */,
+				098275FB1BA6E9EC004CEB6D /* UIImage+KYCircleImage.h */,
+				098275FC1BA6E9EC004CEB6D /* UIImage+KYCircleImage.m */,
+				098276011BA7AB1E004CEB6D /* NSDate+KYComparaion.h */,
+				098276021BA7AB1E004CEB6D /* NSDate+KYComparaion.m */,
+				098276041BA80FC0004CEB6D /* UITextField+KYPlaceHolderColor.h */,
+				098276051BA80FC0004CEB6D /* UITextField+KYPlaceHolderColor.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0945F6091B9FBDAA004FDCCD /* 发布 */ = {
+			isa = PBXGroup;
+			children = (
+				095EBCEE1B9FBED0006A3C1B /* Controller */,
+				0945F60C1B9FBDAA004FDCCD /* View */,
+			);
+			path = "发布";
+			sourceTree = "<group>";
+		};
+		0945F60C1B9FBDAA004FDCCD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				095EBCF41B9FC44F006A3C1B /* KYPublishButton.h */,
+				095EBCF51B9FC44F006A3C1B /* KYPublishButton.m */,
+				0992D8F01BA16D7900B4F3A4 /* KYPlaceHolderTextView.h */,
+				0992D8F11BA16D7900B4F3A4 /* KYPlaceHolderTextView.m */,
+				09F2A3A41BA2EFBB006811F8 /* KYPulishWordToolBar.h */,
+				09F2A3A71BA2EFD4006811F8 /* KYPulishWordToolBar.xib */,
+				09F2A3A51BA2EFBB006811F8 /* KYPulishWordToolBar.m */,
+				098276071BA819C0004CEB6D /* KYTagButton.h */,
+				098276081BA819C0004CEB6D /* KYTagButton.m */,
+				09E62FBD1BE88DFC0025CBBF /* KYTagTextField.h */,
+				09E62FBE1BE88DFC0025CBBF /* KYTagTextField.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		095EBCEE1B9FBED0006A3C1B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				095EBCEF1B9FBED0006A3C1B /* KYPublishViewController.h */,
+				095EBCF01B9FBED0006A3C1B /* KYPublishViewController.m */,
+				095EBCF11B9FBED0006A3C1B /* KYPublishViewController.xib */,
+				09C20CB51BA04F500027D6D3 /* KYPostViewController.h */,
+				09C20CB61BA04F500027D6D3 /* KYPostViewController.m */,
+				09F2A3A91BA2F2E9006811F8 /* KYAddTagViewController.h */,
+				09F2A3AA1BA2F2E9006811F8 /* KYAddTagViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		09D4627E1B9539190045E402 = {
+			isa = PBXGroup;
+			children = (
+				09D462891B9539190045E402 /* 百思不得姐 */,
+				09D462A31B9539190045E402 /* 百思不得姐Tests */,
+				09D462881B9539190045E402 /* Products */,
+				73D33B26BBEC237D12D10108 /* Pods */,
+				75523D4FE125BF53EBF2AA65 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		09D462881B9539190045E402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09D462871B9539190045E402 /* 百思不得姐.app */,
+				09D462A01B9539190045E402 /* 百思不得姐Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09D462891B9539190045E402 /* 百思不得姐 */ = {
+			isa = PBXGroup;
+			children = (
+				09C20CB31BA006740027D6D3 /* Images.xcassets */,
+				0945F6091B9FBDAA004FDCCD /* 发布 */,
+				091186661B9DA8AC0086DEE7 /* Category */,
+				0911864A1B9DA8350086DEE7 /* 其他 */,
+				09D462F31B95CCB30045E402 /* 精华界面 */,
+				09D462F91B95CCB30045E402 /* 朋友界面 */,
+				09D462FF1B95CCB30045E402 /* 我的界面 */,
+				09D4630C1B95CCB30045E402 /* Other */,
+				09D463241B95D19B0045E402 /* Info.plist */,
+				09D463251B95D19B0045E402 /* main.m */,
+			);
+			path = "百思不得姐";
+			sourceTree = "<group>";
+		};
+		09D462A31B9539190045E402 /* 百思不得姐Tests */ = {
+			isa = PBXGroup;
+			children = (
+				09D462A61B9539190045E402 /* _____Tests.m */,
+				09D462A41B9539190045E402 /* Supporting Files */,
+			);
+			path = "百思不得姐Tests";
+			sourceTree = "<group>";
+		};
+		09D462A41B9539190045E402 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09D462A51B9539190045E402 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09D462F31B95CCB30045E402 /* 精华界面 */ = {
+			isa = PBXGroup;
+			children = (
+				09D462F41B95CCB30045E402 /* Controller */,
+				09D462F71B95CCB30045E402 /* Model */,
+				09D462F81B95CCB30045E402 /* View */,
+			);
+			path = "精华界面";
+			sourceTree = "<group>";
+		};
+		09D462F41B95CCB30045E402 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				09F2A3AC1BA5916B006811F8 /* ChildVc */,
+				09D462F51B95CCB30045E402 /* KYEssenceController.h */,
+				09D462F61B95CCB30045E402 /* KYEssenceController.m */,
+				090554861BAAE8CF00549588 /* KYSeeBigPictureController.h */,
+				090554871BAAE8CF00549588 /* KYSeeBigPictureController.m */,
+				090554881BAAE8CF00549588 /* KYSeeBigPictureController.xib */,
+				0905549B1BAC0E1600549588 /* KYCommentViewController.h */,
+				0905549C1BAC0E1600549588 /* KYCommentViewController.m */,
+				0905549E1BAC0F7900549588 /* KYCommentViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		09D462F71B95CCB30045E402 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				098275FE1BA6ECF2004CEB6D /* KYTopic.h */,
+				098275FF1BA6ECF2004CEB6D /* KYTopic.m */,
+				090554951BAC0A0E00549588 /* KYUser.h */,
+				090554961BAC0A0E00549588 /* KYUser.m */,
+				090554981BAC0A1900549588 /* KYComment.h */,
+				090554991BAC0A1900549588 /* KYComment.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		09D462F81B95CCB30045E402 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				09F2A3BF1BA59808006811F8 /* KYTitileButton.h */,
+				09F2A3C01BA59808006811F8 /* KYTitileButton.m */,
+				09F2A3C21BA6AF89006811F8 /* KYTopicCell.h */,
+				09F2A3C31BA6AF89006811F8 /* KYTopicCell.m */,
+				09F2A3C41BA6AF89006811F8 /* KYTopicCell.xib */,
+				0905548B1BABFB1600549588 /* KYTopicVedioView.h */,
+				0905548C1BABFB1600549588 /* KYTopicVedioView.m */,
+				0905548E1BABFB2200549588 /* KYTopicVedioView.xib */,
+				090554901BABFB3700549588 /* KYTopicVoiceView.h */,
+				090554931BABFB7700549588 /* KYTopicVoiceView.xib */,
+				090554911BABFB3700549588 /* KYTopicVoiceView.m */,
+				0982760A1BA9416D004CEB6D /* KYTopicPictureView.h */,
+				0982760B1BA9416D004CEB6D /* KYTopicPictureView.m */,
+				0982760D1BA94184004CEB6D /* KYTopicPictureView.xib */,
+				090554A61BAED08D00549588 /* KYCommentCell.h */,
+				090554A71BAED08D00549588 /* KYCommentCell.m */,
+				090554A81BAED08D00549588 /* KYCommentCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		09D462F91B95CCB30045E402 /* 朋友界面 */ = {
+			isa = PBXGroup;
+			children = (
+				09D462FA1B95CCB30045E402 /* Controller */,
+				09D462FD1B95CCB30045E402 /* Model */,
+				09D462FE1B95CCB30045E402 /* View */,
+			);
+			path = "朋友界面";
+			sourceTree = "<group>";
+		};
+		09D462FA1B95CCB30045E402 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				09D462FB1B95CCB30045E402 /* KYFriendController.h */,
+				09D462FC1B95CCB30045E402 /* KYFriendController.m */,
+				0992D8F31BA17C8E00B4F3A4 /* KYFriendController.xib */,
+				09B0C7671BB0FAB700DA1196 /* KYRecommandFollowViewController.h */,
+				09B0C7681BB0FAB700DA1196 /* KYRecommandFollowViewController.m */,
+				09B0C76A1BB0FAD300DA1196 /* KYRecommandFollowViewController.xib */,
+				090E97D51BB29206001D2A9F /* KYLoginRegisterViewController.h */,
+				090E97D61BB29206001D2A9F /* KYLoginRegisterViewController.m */,
+				090E97D71BB29206001D2A9F /* KYLoginRegisterViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		09D462FD1B95CCB30045E402 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				09B0C7761BB10B2100DA1196 /* KYFollowCategory.h */,
+				09B0C7771BB10B2100DA1196 /* KYFollowCategory.m */,
+				09B0C7791BB13FEA00DA1196 /* KYFollowUser.h */,
+				09B0C77A1BB13FEA00DA1196 /* KYFollowUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		09D462FE1B95CCB30045E402 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				09B0C76C1BB0FFA900DA1196 /* KYCategoryCell.h */,
+				09B0C76D1BB0FFA900DA1196 /* KYCategoryCell.m */,
+				09B0C76E1BB0FFA900DA1196 /* KYCategoryCell.xib */,
+				09B0C7711BB0FFDD00DA1196 /* KYUserCell.h */,
+				09B0C7721BB0FFDD00DA1196 /* KYUserCell.m */,
+				09B0C7731BB0FFDD00DA1196 /* KYUserCell.xib */,
+				0930B00C1BC7D9FC00A16509 /* KYQuickLoginBtn.h */,
+				0930B00D1BC7D9FC00A16509 /* KYQuickLoginBtn.m */,
+				09DCB1611BD3FB6500D709AC /* KYLoginRegTextField.h */,
+				09DCB1621BD3FB6500D709AC /* KYLoginRegTextField.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		09D462FF1B95CCB30045E402 /* 我的界面 */ = {
+			isa = PBXGroup;
+			children = (
+				09D463001B95CCB30045E402 /* Controller */,
+				09D463031B95CCB30045E402 /* Model */,
+				09D463041B95CCB30045E402 /* View */,
+			);
+			path = "我的界面";
+			sourceTree = "<group>";
+		};
+		09D463001B95CCB30045E402 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				09D463011B95CCB30045E402 /* KYMeController.h */,
+				09D463021B95CCB30045E402 /* KYMeController.m */,
+				095F64371B9E7B7B00D0E09E /* KYWebViewController.h */,
+				095F64381B9E7B7B00D0E09E /* KYWebViewController.m */,
+				095F64391B9E7B7B00D0E09E /* KYWebViewController.xib */,
+				095F643F1B9E8C0400D0E09E /* KYSettingController.h */,
+				095F64401B9E8C0400D0E09E /* KYSettingController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		09D463031B95CCB30045E402 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				095F64281B9DBD7C00D0E09E /* KYSquare.h */,
+				095F64291B9DBD7C00D0E09E /* KYSquare.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		09D463041B95CCB30045E402 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				095F64191B9DB28A00D0E09E /* KYMeCell.h */,
+				095F641A1B9DB28A00D0E09E /* KYMeCell.m */,
+				095F64221B9DBA6900D0E09E /* KYFooterView.h */,
+				095F64231B9DBA6900D0E09E /* KYFooterView.m */,
+				095F64251B9DBB3900D0E09E /* KYFooterBtn.h */,
+				095F64261B9DBB3900D0E09E /* KYFooterBtn.m */,
+				095F64421B9E8D5100D0E09E /* KYClearCacheCell.h */,
+				095F64431B9E8D5100D0E09E /* KYClearCacheCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		09D4630C1B95CCB30045E402 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				09D4630D1B95CCB30045E402 /* AppDelegate.h */,
+				09D4630E1B95CCB30045E402 /* AppDelegate.m */,
+				09D463111B95CCB30045E402 /* 新的界面 */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		09D463111B95CCB30045E402 /* 新的界面 */ = {
+			isa = PBXGroup;
+			children = (
+				09D463121B95CCB30045E402 /* Controller */,
+				09D463151B95CCB30045E402 /* Model */,
+				09D463161B95CCB30045E402 /* View */,
+			);
+			path = "新的界面";
+			sourceTree = "<group>";
+		};
+		09D463121B95CCB30045E402 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				09D463131B95CCB30045E402 /* KYNewController.h */,
+				09D463141B95CCB30045E402 /* KYNewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		09D463151B95CCB30045E402 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		09D463161B95CCB30045E402 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		09F2A3AC1BA5916B006811F8 /* ChildVc */ = {
+			isa = PBXGroup;
+			children = (
+				09F2A3B01BA59194006811F8 /* KYVoiceViewController.h */,
+				09F2A3B11BA59194006811F8 /* KYVoiceViewController.m */,
+				09F2A3B31BA591A6006811F8 /* KYVedioViewController.h */,
+				09F2A3B41BA591A6006811F8 /* KYVedioViewController.m */,
+				09F2A3B61BA591B2006811F8 /* KYWordViewController.h */,
+				09F2A3B71BA591B2006811F8 /* KYWordViewController.m */,
+				09F2A3B91BA591C2006811F8 /* KYPictureViewController.h */,
+				09F2A3BA1BA591C2006811F8 /* KYPictureViewController.m */,
+				09F2A3BC1BA59219006811F8 /* KYAllViewController.h */,
+				09F2A3BD1BA59219006811F8 /* KYAllViewController.m */,
+				090554A01BAE85BC00549588 /* KYCommonViewController.h */,
+				090554A11BAE85BC00549588 /* KYCommonViewController.m */,
+			);
+			name = ChildVc;
+			sourceTree = "<group>";
+		};
+		73D33B26BBEC237D12D10108 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B95D6D66E0BE301BCEECBE0 /* Pods.debug.xcconfig */,
+				C653D845B260FAE22A6A538A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		75523D4FE125BF53EBF2AA65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D5D6CE3BF3C1B49AE12306E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09D462861B9539190045E402 /* 百思不得姐 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09D462AA1B9539190045E402 /* Build configuration list for PBXNativeTarget "百思不得姐" */;
+			buildPhases = (
+				138554781F228E4162870523 /* Check Pods Manifest.lock */,
+				09D462831B9539190045E402 /* Sources */,
+				09D462841B9539190045E402 /* Frameworks */,
+				09D462851B9539190045E402 /* Resources */,
+				1706CD9C7415605A7942E1FA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "百思不得姐";
+			productName = "百思不得姐";
+			productReference = 09D462871B9539190045E402 /* 百思不得姐.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09D4629F1B9539190045E402 /* 百思不得姐Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09D462AD1B9539190045E402 /* Build configuration list for PBXNativeTarget "百思不得姐Tests" */;
+			buildPhases = (
+				09D4629C1B9539190045E402 /* Sources */,
+				09D4629D1B9539190045E402 /* Frameworks */,
+				09D4629E1B9539190045E402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09D462A21B9539190045E402 /* PBXTargetDependency */,
+			);
+			name = "百思不得姐Tests";
+			productName = "百思不得姐Tests";
+			productReference = 09D462A01B9539190045E402 /* 百思不得姐Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09D4627F1B9539190045E402 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KY;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "郑开元";
+				TargetAttributes = {
+					09D462861B9539190045E402 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					09D4629F1B9539190045E402 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 09D462861B9539190045E402;
+					};
+				};
+			};
+			buildConfigurationList = 09D462821B9539190045E402 /* Build configuration list for PBXProject "百思不得姐" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09D4627E1B9539190045E402;
+			productRefGroup = 09D462881B9539190045E402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09D462861B9539190045E402 /* 百思不得姐 */,
+				09D4629F1B9539190045E402 /* 百思不得姐Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09D462851B9539190045E402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095EBCF31B9FBED0006A3C1B /* KYPublishViewController.xib in Resources */,
+				0992D8F41BA17C8E00B4F3A4 /* KYFriendController.xib in Resources */,
+				09F2A3A81BA2EFD4006811F8 /* KYPulishWordToolBar.xib in Resources */,
+				0982760E1BA94184004CEB6D /* KYTopicPictureView.xib in Resources */,
+				09B0C7751BB0FFDD00DA1196 /* KYUserCell.xib in Resources */,
+				09F2A3C61BA6AF89006811F8 /* KYTopicCell.xib in Resources */,
+				09B0C7701BB0FFA900DA1196 /* KYCategoryCell.xib in Resources */,
+				09C20CB41BA006740027D6D3 /* Images.xcassets in Resources */,
+				0905548F1BABFB2200549588 /* KYTopicVedioView.xib in Resources */,
+				095F643B1B9E7B7B00D0E09E /* KYWebViewController.xib in Resources */,
+				0905549F1BAC0F7900549588 /* KYCommentViewController.xib in Resources */,
+				09B0C76B1BB0FAD300DA1196 /* KYRecommandFollowViewController.xib in Resources */,
+				090554941BABFB7700549588 /* KYTopicVoiceView.xib in Resources */,
+				09D463261B95D19B0045E402 /* Info.plist in Resources */,
+				0905548A1BAAE8CF00549588 /* KYSeeBigPictureController.xib in Resources */,
+				090554AA1BAED08D00549588 /* KYCommentCell.xib in Resources */,
+				090E97D91BB29206001D2A9F /* KYLoginRegisterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09D4629E1B9539190045E402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		138554781F228E4162870523 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1706CD9C7415605A7942E1FA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09D462831B9539190045E402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0930B00E1BC7D9FC00A16509 /* KYQuickLoginBtn.m in Sources */,
+				09C20CB71BA04F500027D6D3 /* KYPostViewController.m in Sources */,
+				090554921BABFB3700549588 /* KYTopicVoiceView.m in Sources */,
+				09D463171B95CCB30045E402 /* KYEssenceController.m in Sources */,
+				095F643A1B9E7B7B00D0E09E /* KYWebViewController.m in Sources */,
+				091186581B9DA8350086DEE7 /* KYTabBarController.m in Sources */,
+				095F643E1B9E810900D0E09E /* KYNavigationController.m in Sources */,
+				09E62FBF1BE88DFC0025CBBF /* KYTagTextField.m in Sources */,
+				09B0C77B1BB13FEA00DA1196 /* KYFollowUser.m in Sources */,
+				090554A21BAE85BC00549588 /* KYCommonViewController.m in Sources */,
+				095F641B1B9DB28A00D0E09E /* KYMeCell.m in Sources */,
+				0982760C1BA9416D004CEB6D /* KYTopicPictureView.m in Sources */,
+				098276031BA7AB1E004CEB6D /* NSDate+KYComparaion.m in Sources */,
+				098276091BA819C0004CEB6D /* KYTagButton.m in Sources */,
+				09B0C7741BB0FFDD00DA1196 /* KYUserCell.m in Sources */,
+				090554971BAC0A0E00549588 /* KYUser.m in Sources */,
+				090E97D81BB29206001D2A9F /* KYLoginRegisterViewController.m in Sources */,
+				098275FD1BA6E9EC004CEB6D /* UIImage+KYCircleImage.m in Sources */,
+				0905549A1BAC0A1900549588 /* KYComment.m in Sources */,
+				095F64411B9E8C0400D0E09E /* KYSettingController.m in Sources */,
+				095F642A1B9DBD7C00D0E09E /* KYSquare.m in Sources */,
+				0911866F1B9DAA230086DEE7 /* UIView+ViewFrameExt.m in Sources */,
+				098276001BA6ECF2004CEB6D /* KYTopic.m in Sources */,
+				0905548D1BABFB1600549588 /* KYTopicVedioView.m in Sources */,
+				09F2A3BE1BA59219006811F8 /* KYAllViewController.m in Sources */,
+				09F2A3C51BA6AF89006811F8 /* KYTopicCell.m in Sources */,
+				095F64211B9DB46C00D0E09E /* KYConst.m in Sources */,
+				09D463191B95CCB40045E402 /* KYMeController.m in Sources */,
+				091186691B9DA8AC0086DEE7 /* UIBarButtonItem+KYExt.m in Sources */,
+				09F2A3B51BA591A6006811F8 /* KYVedioViewController.m in Sources */,
+				090554A91BAED08D00549588 /* KYCommentCell.m in Sources */,
+				098275FA1BA6E8E6004CEB6D /* UIImageView+KYIconView.m in Sources */,
+				09B0C7781BB10B2100DA1196 /* KYFollowCategory.m in Sources */,
+				095F64441B9E8D5100D0E09E /* KYClearCacheCell.m in Sources */,
+				0992D8F21BA16D7900B4F3A4 /* KYPlaceHolderTextView.m in Sources */,
+				09F2A3B81BA591B2006811F8 /* KYWordViewController.m in Sources */,
+				095EBCF61B9FC44F006A3C1B /* KYPublishButton.m in Sources */,
+				095F64241B9DBA6900D0E09E /* KYFooterView.m in Sources */,
+				09B0C76F1BB0FFA900DA1196 /* KYCategoryCell.m in Sources */,
+				0905549D1BAC0E1600549588 /* KYCommentViewController.m in Sources */,
+				09D463181B95CCB40045E402 /* KYFriendController.m in Sources */,
+				09D4631F1B95CCB40045E402 /* KYNewController.m in Sources */,
+				09F2A3B21BA59194006811F8 /* KYVoiceViewController.m in Sources */,
+				0945F6051B9ED86B004FDCCD /* NSString+KYFileCache.m in Sources */,
+				09F2A3A61BA2EFBB006811F8 /* KYPulishWordToolBar.m in Sources */,
+				091186591B9DA8350086DEE7 /* KYTabBar.m in Sources */,
+				09B0C7691BB0FAB700DA1196 /* KYRecommandFollowViewController.m in Sources */,
+				090554891BAAE8CF00549588 /* KYSeeBigPictureController.m in Sources */,
+				09D463271B95D19B0045E402 /* main.m in Sources */,
+				09DCB1631BD3FB6500D709AC /* KYLoginRegTextField.m in Sources */,
+				098276061BA80FC0004CEB6D /* UITextField+KYPlaceHolderColor.m in Sources */,
+				0945F6081B9EDCBF004FDCCD /* KYTool.m in Sources */,
+				09F2A3AB1BA2F2E9006811F8 /* KYAddTagViewController.m in Sources */,
+				0911866E1B9DAA230086DEE7 /* NSArray+Ext.m in Sources */,
+				09F2A3BB1BA591C2006811F8 /* KYPictureViewController.m in Sources */,
+				09D4631C1B95CCB40045E402 /* AppDelegate.m in Sources */,
+				095EBCF21B9FBED0006A3C1B /* KYPublishViewController.m in Sources */,
+				09F2A3C11BA59808006811F8 /* KYTitileButton.m in Sources */,
+				095F64271B9DBB3900D0E09E /* KYFooterBtn.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09D4629C1B9539190045E402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D462A71B9539190045E402 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09D462A21B9539190045E402 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09D462861B9539190045E402 /* 百思不得姐 */;
+			targetProxy = 09D462A11B9539190045E402 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09D462A81B9539190045E402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09D462A91B9539190045E402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09D462AB1B9539190045E402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B95D6D66E0BE301BCEECBE0 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/百思不得姐/其他/PrefixHeader.pch";
+				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		09D462AC1B9539190045E402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C653D845B260FAE22A6A538A /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/百思不得姐/其他/PrefixHeader.pch";
+				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		09D462AE1B9539190045E402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "百思不得姐Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/百思不得姐.app/百思不得姐";
+			};
+			name = Debug;
+		};
+		09D462AF1B9539190045E402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "百思不得姐Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/百思不得姐.app/百思不得姐";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09D462821B9539190045E402 /* Build configuration list for PBXProject "百思不得姐" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09D462A81B9539190045E402 /* Debug */,
+				09D462A91B9539190045E402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09D462AA1B9539190045E402 /* Build configuration list for PBXNativeTarget "百思不得姐" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09D462AB1B9539190045E402 /* Debug */,
+				09D462AC1B9539190045E402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09D462AD1B9539190045E402 /* Build configuration list for PBXNativeTarget "百思不得姐Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09D462AE1B9539190045E402 /* Debug */,
+				09D462AF1B9539190045E402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09D4627F1B9539190045E402 /* Project object */;
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="kMS-aH-rR1" customClass="KYTopicVedioView">
+            <rect key="frame" x="0.0" y="0.0" width="307" height="127"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="P7J-kT-Jxo">
+                    <rect key="frame" x="0.0" y="0.0" width="307" height="127"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q5w-Fl-4HF" userLabel="播放次数">
+                    <rect key="frame" x="265" y="0.0" width="42" height="21"/>
+                    <color key="backgroundColor" white="0.5" alpha="0.40999999999999998" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imageBackground" translatesAutoresizingMaskIntoConstraints="NO" id="vId-nb-K9X">
+                    <rect key="frame" x="0.0" y="25" width="307" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="pur-ch-inV"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDt-4b-p8o" userLabel="播放时长">
+                    <rect key="frame" x="265" y="106" width="42" height="21"/>
+                    <color key="backgroundColor" white="0.5" alpha="0.40999999999999998" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iSx-qz-Zjw">
+                    <rect key="frame" x="118" y="28" width="71" height="71"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="71" id="hB7-dM-y76"/>
+                        <constraint firstAttribute="height" constant="71" id="wGy-88-oVl"/>
+                    </constraints>
+                    <state key="normal" image="video-play">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="vId-nb-K9X" firstAttribute="leading" secondItem="kMS-aH-rR1" secondAttribute="leading" id="3BX-3I-Khc"/>
+                <constraint firstItem="vId-nb-K9X" firstAttribute="top" secondItem="kMS-aH-rR1" secondAttribute="top" constant="25" id="7aj-tm-fX4"/>
+                <constraint firstItem="P7J-kT-Jxo" firstAttribute="top" secondItem="kMS-aH-rR1" secondAttribute="top" id="82G-3q-Rjm"/>
+                <constraint firstAttribute="trailing" secondItem="eDt-4b-p8o" secondAttribute="trailing" id="BJH-bh-0R9"/>
+                <constraint firstAttribute="trailing" secondItem="vId-nb-K9X" secondAttribute="trailing" id="EKT-QY-OO0"/>
+                <constraint firstAttribute="bottom" secondItem="P7J-kT-Jxo" secondAttribute="bottom" id="Fw6-W3-059"/>
+                <constraint firstItem="Q5w-Fl-4HF" firstAttribute="top" secondItem="kMS-aH-rR1" secondAttribute="top" id="MJE-no-DPS"/>
+                <constraint firstAttribute="centerY" secondItem="iSx-qz-Zjw" secondAttribute="centerY" id="Pf0-Xa-QV0"/>
+                <constraint firstAttribute="bottom" secondItem="eDt-4b-p8o" secondAttribute="bottom" id="RCk-dg-Ir5"/>
+                <constraint firstItem="P7J-kT-Jxo" firstAttribute="leading" secondItem="kMS-aH-rR1" secondAttribute="leading" id="atR-Sx-vCt"/>
+                <constraint firstAttribute="trailing" secondItem="P7J-kT-Jxo" secondAttribute="trailing" id="eOZ-gQ-YGA"/>
+                <constraint firstAttribute="centerX" secondItem="iSx-qz-Zjw" secondAttribute="centerX" id="pfh-Cn-0el"/>
+                <constraint firstAttribute="trailing" secondItem="Q5w-Fl-4HF" secondAttribute="trailing" id="tST-QN-xkS"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="durationLabel" destination="eDt-4b-p8o" id="Zik-IX-jsp"/>
+                <outlet property="imageView" destination="P7J-kT-Jxo" id="3FS-PV-WKq"/>
+                <outlet property="playCountLabel" destination="Q5w-Fl-4HF" id="KMX-1w-Brc"/>
+            </connections>
+            <point key="canvasLocation" x="293.5" y="336.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="imageBackground" width="75" height="15"/>
+        <image name="video-play" width="71" height="71"/>
+    </resources>
+</document>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KYWebViewController">
+            <connections>
+                <outlet property="backBtn" destination="T6t-By-h5p" id="i99-Ep-ODg"/>
+                <outlet property="forwardBtn" destination="OMH-x3-PgX" id="JTj-Ms-FJR"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="YjC-sq-cCN" id="Lkj-Om-dct"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3L6-zu-uru">
+                    <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="IGs-hC-Oep"/>
+                    </constraints>
+                    <items>
+                        <barButtonItem enabled="NO" image="back" id="T6t-By-h5p">
+                            <connections>
+                                <action selector="back" destination="-1" id="4re-f1-Zuz"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem enabled="NO" image="forward" id="OMH-x3-PgX">
+                            <connections>
+                                <action selector="forward" destination="-1" id="GKc-Nx-lRg"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="fgt-7Y-7WB"/>
+                        <barButtonItem systemItem="refresh" id="v6p-S3-6Hs">
+                            <connections>
+                                <action selector="refresh" destination="-1" id="cgy-23-Mfw"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YjC-sq-cCN">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="94k-qn-BHz"/>
+                    </connections>
+                </webView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="3L6-zu-uru" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="641-aG-FnO"/>
+                <constraint firstAttribute="trailing" secondItem="3L6-zu-uru" secondAttribute="trailing" id="JSc-ff-mhA"/>
+                <constraint firstItem="YjC-sq-cCN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="dNu-Tj-ViN"/>
+                <constraint firstItem="YjC-sq-cCN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="e3X-6b-Ml0"/>
+                <constraint firstItem="3L6-zu-uru" firstAttribute="top" secondItem="YjC-sq-cCN" secondAttribute="bottom" id="pNK-X6-f8w"/>
+                <constraint firstAttribute="trailing" secondItem="YjC-sq-cCN" secondAttribute="trailing" id="pmQ-jj-ojj"/>
+                <constraint firstAttribute="bottom" secondItem="3L6-zu-uru" secondAttribute="bottom" id="tE2-Dh-KEg"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="back" width="32" height="32"/>
+        <image name="forward" width="32" height="32"/>
+    </resources>
+</document>

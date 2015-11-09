@@ -1,0 +1,41 @@
+//
+//  PrefixHeader.pch
+//  百思不得姐
+//
+//  Created by 郑开元 on 15/9/7.
+//  Copyright (c) 2015年 郑开元. All rights reserved.
+//
+
+#ifndef ______PrefixHeader_pch
+#define ______PrefixHeader_pch
+//日志输出
+#ifdef DEBUG
+#define KYLog(...) NSLog(__VA_ARGS__)
+#else
+#define KYLog(...)
+#endif
+//打印方法
+#define KYFun KYLog(@"%s",__func__);
+//分类方法
+#import "UIView+ViewFrameExt.h"
+#import "UIBarButtonItem+KYExt.h"
+#import "UIImageView+KYIconView.h"
+#import "UIImage+KYCircleImage.h"
+#import "UITextField+KYPlaceHolderColor.h"
+//常用头文件
+#import <SVProgressHUD.h>
+//全局常量
+#import "KYConst.h"
+//颜色
+#define  KYARGBColor(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
+#define KYRGBColor(r,g,b) KYARGBColor(r,g,b,255)
+#define KYGrayColor(v) KYRGBColor(v,v,v)
+#define KYBGColor KYGrayColor(220)
+#define KYRandomColor KYRGBColor(arc4random_uniform(255),arc4random_uniform(255),arc4random_uniform(255))
+#define KYWeakSelf __weak typeof(self) weakSelf=self;
+// 标签的背景颜色
+#define KYTagBgColor KYRGBColor(70, 142, 243)
+//
+#define KYScreenW [UIScreen mainScreen].bounds.size.width
+#define KYScreenH [UIScreen mainScreen].bounds.size.height
+#endif

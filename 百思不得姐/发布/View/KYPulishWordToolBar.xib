@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="faX-WR-VPl" customClass="KYPulishWordToolBar">
+            <rect key="frame" x="0.0" y="0.0" width="567" height="105"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="loI-o7-1gN" userLabel="bottomView">
+                    <rect key="frame" x="0.0" y="70" width="567" height="35"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar-light" translatesAutoresizingMaskIntoConstraints="NO" id="2uD-ec-lcS">
+                            <rect key="frame" x="0.0" y="0.0" width="567" height="35"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Edw-ts-toM">
+                            <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="35" id="RnP-5h-MGn"/>
+                            </constraints>
+                            <state key="normal" image="post-#N">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" image="post-#"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCc-tT-fNw">
+                            <rect key="frame" x="35" y="0.0" width="35" height="35"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="35" id="1Wb-OK-xIB"/>
+                            </constraints>
+                            <state key="normal" image="post-@N">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" image="post-@"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="2uD-ec-lcS" firstAttribute="top" secondItem="loI-o7-1gN" secondAttribute="top" id="2b6-dL-u71"/>
+                        <constraint firstItem="Edw-ts-toM" firstAttribute="top" secondItem="loI-o7-1gN" secondAttribute="top" id="9x4-B7-dik"/>
+                        <constraint firstAttribute="trailing" secondItem="2uD-ec-lcS" secondAttribute="trailing" id="Ae4-d7-P1p"/>
+                        <constraint firstAttribute="bottom" secondItem="bCc-tT-fNw" secondAttribute="bottom" id="IkI-r0-9nf"/>
+                        <constraint firstAttribute="bottom" secondItem="2uD-ec-lcS" secondAttribute="bottom" id="OsT-ho-HZP"/>
+                        <constraint firstItem="bCc-tT-fNw" firstAttribute="top" secondItem="loI-o7-1gN" secondAttribute="top" id="PFv-aY-GBJ"/>
+                        <constraint firstItem="2uD-ec-lcS" firstAttribute="top" secondItem="loI-o7-1gN" secondAttribute="top" id="QLC-YZ-6hZ"/>
+                        <constraint firstItem="2uD-ec-lcS" firstAttribute="leading" secondItem="loI-o7-1gN" secondAttribute="leading" id="SZh-Ja-hur"/>
+                        <constraint firstItem="2uD-ec-lcS" firstAttribute="leading" secondItem="loI-o7-1gN" secondAttribute="leading" id="Tfh-bt-caH"/>
+                        <constraint firstItem="bCc-tT-fNw" firstAttribute="leading" secondItem="Edw-ts-toM" secondAttribute="trailing" id="U8r-SV-Vcd"/>
+                        <constraint firstAttribute="height" constant="35" id="Wti-5z-xrR"/>
+                        <constraint firstAttribute="bottom" secondItem="Edw-ts-toM" secondAttribute="bottom" id="aAa-2K-l0s"/>
+                        <constraint firstItem="Edw-ts-toM" firstAttribute="leading" secondItem="loI-o7-1gN" secondAttribute="leading" id="cRq-35-k5h"/>
+                        <constraint firstAttribute="bottom" secondItem="2uD-ec-lcS" secondAttribute="bottom" id="n3U-GS-PSO"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JHu-Ng-G7X" userLabel="topView">
+                    <rect key="frame" x="0.0" y="0.0" width="567" height="60"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="Jer-uX-4xY"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="JHu-Ng-G7X" secondAttribute="trailing" id="9tv-2B-2E0"/>
+                <constraint firstItem="loI-o7-1gN" firstAttribute="leading" secondItem="faX-WR-VPl" secondAttribute="leading" id="NaL-Fp-e5d"/>
+                <constraint firstItem="JHu-Ng-G7X" firstAttribute="leading" secondItem="faX-WR-VPl" secondAttribute="leading" id="Nkk-8w-A7r"/>
+                <constraint firstAttribute="trailing" secondItem="loI-o7-1gN" secondAttribute="trailing" id="Ye9-Ap-0jQ"/>
+                <constraint firstAttribute="bottom" secondItem="loI-o7-1gN" secondAttribute="bottom" id="hpW-gE-hNm"/>
+                <constraint firstItem="JHu-Ng-G7X" firstAttribute="top" secondItem="faX-WR-VPl" secondAttribute="top" id="wqr-GJ-1Yt"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bottomView" destination="loI-o7-1gN" id="TQV-3w-Pw4"/>
+                <outlet property="topView" destination="JHu-Ng-G7X" id="mdt-Ws-jOx"/>
+                <outlet property="topViewHeight" destination="Jer-uX-4xY" id="q9s-tR-WpM"/>
+            </connections>
+            <point key="canvasLocation" x="160.5" y="519.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="post-#" width="19" height="19"/>
+        <image name="post-#N" width="19" height="19"/>
+        <image name="post-@" width="19" height="19"/>
+        <image name="post-@N" width="19" height="19"/>
+        <image name="tabbar-light" width="320" height="49"/>
+    </resources>
+</document>
